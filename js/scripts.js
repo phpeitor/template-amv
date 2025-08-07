@@ -494,6 +494,7 @@
  * See https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent/CustomEvent
  */
 ( function () {
+	
 	if ( typeof window.CustomEvent === "function" ) return false;
 
 	function CustomEvent ( event, params ) {
@@ -505,9 +506,5 @@
 	}
 
 	CustomEvent.prototype = window.Event.prototype;
-
 	window.CustomEvent = CustomEvent;
-
-
-	
 } )();
