@@ -1,6 +1,10 @@
 ( function( $ ) {
 
 	'use strict';
+	
+	const today = new Date();
+  	const currentYear = today.getFullYear();
+  	$('.year_now').text(currentYear);
 
 	if ( typeof wpcf7 === 'undefined' || wpcf7 === null ) {
 		return;
@@ -489,12 +493,8 @@
 
 } )( jQuery );
 
-/*
- * Polyfill for Internet Explorer
- * See https://developer.mozilla.org/en-US/docs/Web/API/CustomEvent/CustomEvent
- */
 ( function () {
-	
+
 	if ( typeof window.CustomEvent === "function" ) return false;
 
 	function CustomEvent ( event, params ) {
