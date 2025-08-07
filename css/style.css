@@ -1229,3 +1229,117 @@ input[type="button"],
 .widgettitle {
   font-style: none;
 }
+.custom-logo-size img {
+    display: block;
+    width: 100px !important;
+    margin: auto;
+}
+.vc_custom_1495453074249 {
+    background-color: #222222 !important;
+}
+
+.vc_custom_1495459066096 {
+    background-color: #f5f5f5 !important;
+}
+
+.vc_custom_1495479770318 {
+    background-image: url(../images/pricing-bg.png?id=174) !important;
+    background-position: 0 0 !important;
+    background-repeat: no-repeat !important;
+}
+
+.vc_custom_1495457535517 {
+    padding-top: 30px !important;
+}
+
+.vc_custom_1495457624850 {
+    padding-bottom: 30px !important;
+}
+
+.vc_custom_1495459248064 {
+    padding-bottom: 30px !important;
+}
+
+.vc_custom_1495459254172 {
+    padding-bottom: 30px !important;
+}
+
+.vc_custom_1495459260249 {
+    padding-bottom: 30px !important;
+}
+
+.vc_custom_1495457721318 {
+    padding-top: 25px !important;
+}
+
+.vc_custom_1495457764155 {
+    padding-top: 25px !important;
+}
+
+.vc_custom_1495457780846 {
+    padding-top: 25px !important;
+}
+
+.vc_custom_1495457811102 {
+    padding-top: 25px !important;
+}
+
+.vc_custom_1495459265594 {
+    padding-bottom: 30px !important;
+}
+
+.vc_custom_1495459271386 {
+    padding-bottom: 30px !important;
+}
+
+.vc_custom_1495459281467 {
+    padding-bottom: 30px !important;
+}
+
+.vc_custom_1495459287238 {
+    padding-bottom: 30px !important;
+}
+
+.vc_custom_1495457855197 {
+    padding-top: 25px !important;
+}
+
+.vc_custom_1495457888548 {
+    padding-top: 25px !important;
+}
+
+.vc_custom_1495457911072 {
+    padding-top: 25px !important;
+}
+
+.vc_custom_1495457924541 {
+    padding-top: 25px !important;
+}
+
+.vc_custom_1495478570877 {
+    padding-bottom: 30px !important;
+}
+
+.vc_custom_1495479761486 {
+    padding-bottom: 30px !important;
+}
+
+.vc_custom_1495480310693 {
+    padding-top: 22px !important;
+    padding-bottom: 30px !important;
+}
+
+.vc_custom_1495480317521 {
+    padding-bottom: 32px !important;
+}
+
+.vc_custom_1495480322627 {
+    padding-bottom: 32px !important;
+}
+
+.vc_custom_1495480327860 {
+    padding-bottom: 32px !important;
+}
+.wpb_animate_when_almost_visible {
+    opacity: 1;
+}
