@@ -2,6 +2,13 @@
 
 	'use strict';
 
+	var body = document.querySelector( "body" );
+	var preloader = body.querySelector( ".loading-screen" );
+	var page = body.querySelector( ".page-wrapper" );
+	body.style.overflowY = "auto";
+	preloader.classList.add( "loading-done" );
+	page.classList.add( "loading-done" );
+
 	if ( typeof wpcf7 === 'undefined' || wpcf7 === null ) {
 		return;
 	}
